@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <title>BRICK BREAKER GAME</title>
     <meta charset="UTF-8" />
     <style>
@@ -17,9 +18,20 @@
         src: url("https://fonts.googleapis.com/css?family=Voltaire");
       }
     </style>
+
+    <script type="module" src="/src/index.js"></script>
+    <script type="module" src="/src/game.js"></script>
+    <script type="module" src="/src/paddle.js"></script>
+    <script type="module" src="/src/ball.js"></script>
+    <script type="module" src="/src/brick.js"></script>
+    <script type="module" src="/src/detectCollision.js"></script>
+    <script type="module" src="/src/levels.js"></script>
+    <script type="module" src="/inputHandler.js"></script>
+    
   </head>
 
   <body>
+    
     <img src="/assets/images/ball.png" id="imgBall" />
     <img src="/assets/images/brick.png" id="imgBrick" />
 
@@ -27,6 +39,6 @@
     <br />
     <button type="button" id="startButton">START GAME</button>
     <button type="button" id="exitButton">EXIT GAME</button>
-    <script src="./src/index.js"></script>
+    
   </body>
 </html>
