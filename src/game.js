@@ -1,6 +1,6 @@
-import Paddle from "./paddle";
-import inputHandler from "../inputHandler";
-import Ball from "./ball";
+import Paddle from "/src/paddle.js";
+import inputHandler from "/inputHandler.js";
+import Ball from "/src/ball.js";
 import { buildLevel, level1 } from "/src/levels.js";
 
 export const gameMode = {
